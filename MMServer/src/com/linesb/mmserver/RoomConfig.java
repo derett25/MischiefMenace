@@ -1,4 +1,4 @@
-package com.linesb.ftpserver;
+package com.linesb.mmserver;
 
 /**
 * Class that keeps track of the current configuration of a room.

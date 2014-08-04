@@ -1,10 +1,10 @@
-package com.linesb.ftpserver;
+package com.linesb.mmserver;
 
 import java.net.DatagramSocket;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import com.linesb.ftpserver.GameRoom.CurrentState;
+import com.linesb.mmserver.GameRoom.CurrentState;
 
 /**
 * Representing the current state of all the players.

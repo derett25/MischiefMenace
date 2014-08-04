@@ -1,4 +1,4 @@
-package com.linesb.ftpserver;
+package com.linesb.mmserver;
 
 import java.net.DatagramSocket;
 import java.util.ArrayList;

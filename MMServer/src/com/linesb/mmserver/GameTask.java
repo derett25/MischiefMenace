@@ -1,4 +1,4 @@
-package com.linesb.ftpserver;
+package com.linesb.mmserver;
 
 import java.util.Timer;
 import java.util.TimerTask;

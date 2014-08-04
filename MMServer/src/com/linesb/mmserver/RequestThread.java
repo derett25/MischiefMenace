@@ -1,4 +1,4 @@
-package com.linesb.ftpserver;
+package com.linesb.mmserver;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/bng"
+    android:orientation="vertical" >
+    
+    <HorizontalScrollView
+        android:id="@+id/playedCards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:id="@+id/playedLayout"
+            android:layout_width="wrap_content"
+            android:animateLayoutChanges="true"
+            android:layout_height="wrap_content"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+    
+    <LinearLayout
+		android:id="@+id/phraseArea"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:animateLayoutChanges="true"
+		android:layout_marginBottom="10dp"
+		android:layout_centerInParent="true"
+		android:layout_above="@id/playedCards"
+		android:orientation="vertical" >
+	</LinearLayout>
+
+    <HorizontalScrollView
+        android:id="@+id/userCards"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <LinearLayout
+            android:id="@+id/cardLayout"
+            android:animateLayoutChanges="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:baselineAligned="false"
+            android:orientation="horizontal" >
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/startGameButton"
+        style="@style/button_style"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:textSize="30sp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/button_style"
+        android:enabled="false"
+        android:text="@string/startButton" />
+
+    <Button
+        android:id="@+id/participantsButton"
+        style="@style/button_style"
+        android:layout_width="300dp"
+        android:layout_height="65dp"
+        android:textSize="30sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/button_style"
+        android:text="@string/participantsButton" />
+
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/playedCards"
+        android:layout_marginTop="5dp"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:text="@string/infoText" />
+
+</RelativeLayout>

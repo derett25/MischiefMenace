@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Mischief Menace</string>
+    <string name="connectButton">Connect to server</string>
+    <string name="refreshButton">Refresh</string>
+    <string name="startButton">Start Game</string>
+    <string name="confirmButton">Confirm</string>
+    <string name="participantsButton">Participants</string>
+    <string name="createButton">Create Room</string>
+    <string name="lobbyText">Lobby</string>
+    <string name="applicationLogo">The application logo</string>
+    <string name="nicknameHint">Enter your nickname</string>
+    <string name="infoText">Waiting&#8230;</string>
+    <string name="connectToServer">Connecting to server&#8230;</string>
+
+</resources>
